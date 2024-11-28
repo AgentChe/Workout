@@ -331,7 +331,7 @@
 /* Begin PBXFileReference section */
 		6A7D9748EDD057FFAC02A2CB /* Pods-Workout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workout.debug.xcconfig"; path = "Target Support Files/Pods-Workout/Pods-Workout.debug.xcconfig"; sourceTree = "<group>"; };
 		7F9FED687076BCC756CE8311 /* Pods-Workout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workout.release.xcconfig"; path = "Target Support Files/Pods-Workout/Pods-Workout.release.xcconfig"; sourceTree = "<group>"; };
-		DECD47022CE50F640091A803 /* Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECD47022CE50F640091A803 /* Workout App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD471B2CE50F6B0091A803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DECD471C2CE50F6B0091A803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECD471D2CE50F6B0091A803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -696,7 +696,7 @@
 		DECD47032CE50F640091A803 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DECD47022CE50F640091A803 /* Workout.app */,
+				DECD47022CE50F640091A803 /* Workout App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2158,7 +2158,7 @@
 			);
 			name = Workout;
 			productName = Workout;
-			productReference = DECD47022CE50F640091A803 /* Workout.app */;
+			productReference = DECD47022CE50F640091A803 /* Workout App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2608,6 +2608,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Workout/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Workout App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -2619,7 +2620,7 @@
 				);
 				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = train.workout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Workout App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Workout AppStore";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -2646,6 +2647,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Workout/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Workout App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -2657,7 +2659,7 @@
 				);
 				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = train.workout;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Workout App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Workout AppStore";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
