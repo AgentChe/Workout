@@ -132,7 +132,6 @@
 		DECD496A2CE5105F0091A803 /* DrillTrainingMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD47952CE5105F0091A803 /* DrillTrainingMenuView.swift */; };
 		DECD496B2CE5105F0091A803 /* ODrillsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD47E12CE5105F0091A803 /* ODrillsTableView.swift */; };
 		DECD496C2CE5105F0091A803 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48C72CE5105F0091A803 /* ProfileManager.swift */; };
-		DECD496D2CE5105F0091A803 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD47482CE5105F0091A803 /* BranchManager.swift */; };
 		DECD496E2CE5105F0091A803 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD477E2CE5105F0091A803 /* GlobalDefinitions.swift */; };
 		DECD496F2CE5105F0091A803 /* PurchaseValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48D22CE5105F0091A803 /* PurchaseValidationObserver.swift */; };
 		DECD49702CE5105F0091A803 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48C32CE5105F0091A803 /* LoginRequest.swift */; };
@@ -185,7 +184,6 @@
 		DECD499F2CE5105F0091A803 /* OFocusZoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD47E62CE5105F0091A803 /* OFocusZoneButton.swift */; };
 		DECD49A02CE5105F0091A803 /* PlanWeekDayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD47BD2CE5105F0091A803 /* PlanWeekDayButton.swift */; };
 		DECD49A12CE5105F0091A803 /* WorkoutTrainingQuitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48632CE5105F0091A803 /* WorkoutTrainingQuitView.swift */; };
-		DECD49A22CE5105F0091A803 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD47472CE5105F0091A803 /* AmplitudeManager.swift */; };
 		DECD49A32CE5105F0091A803 /* ExerciseInstructionInstructionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48472CE5105F0091A803 /* ExerciseInstructionInstructionCell.swift */; };
 		DECD49A42CE5105F0091A803 /* PaygateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48022CE5105F0091A803 /* PaygateViewModel.swift */; };
 		DECD49A52CE5105F0091A803 /* PlanMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48B82CE5105F0091A803 /* PlanMediator.swift */; };
@@ -346,8 +344,6 @@
 		DECD47352CE510580091A803 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
 		DECD47362CE510580091A803 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		DECD47392CE510580091A803 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DECD47472CE5105F0091A803 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DECD47482CE5105F0091A803 /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DECD47492CE5105F0091A803 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DECD474B2CE5105F0091A803 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DECD474C2CE5105F0091A803 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
@@ -766,8 +762,6 @@
 		DECD474A2CE5105F0091A803 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				DECD47472CE5105F0091A803 /* AmplitudeManager.swift */,
-				DECD47482CE5105F0091A803 /* BranchManager.swift */,
 				DECD47492CE5105F0091A803 /* FacebookManager.swift */,
 			);
 			path = Analytics;
@@ -2248,9 +2242,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Workout/Pods-Workout-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Workout/Pods-Workout-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2375,7 +2373,6 @@
 				DECD496A2CE5105F0091A803 /* DrillTrainingMenuView.swift in Sources */,
 				DECD496B2CE5105F0091A803 /* ODrillsTableView.swift in Sources */,
 				DECD496C2CE5105F0091A803 /* ProfileManager.swift in Sources */,
-				DECD496D2CE5105F0091A803 /* BranchManager.swift in Sources */,
 				DECD496E2CE5105F0091A803 /* GlobalDefinitions.swift in Sources */,
 				DECD496F2CE5105F0091A803 /* PurchaseValidationObserver.swift in Sources */,
 				DECD49702CE5105F0091A803 /* LoginRequest.swift in Sources */,
@@ -2428,7 +2425,6 @@
 				DECD499F2CE5105F0091A803 /* OFocusZoneButton.swift in Sources */,
 				DECD49A02CE5105F0091A803 /* PlanWeekDayButton.swift in Sources */,
 				DECD49A12CE5105F0091A803 /* WorkoutTrainingQuitView.swift in Sources */,
-				DECD49A22CE5105F0091A803 /* AmplitudeManager.swift in Sources */,
 				DECD49A32CE5105F0091A803 /* ExerciseInstructionInstructionCell.swift in Sources */,
 				DECD49A42CE5105F0091A803 /* PaygateViewModel.swift in Sources */,
 				DECD49A52CE5105F0091A803 /* PlanMediator.swift in Sources */,
@@ -2602,7 +2598,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2618,7 +2614,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = train.workout;
 				PRODUCT_NAME = "Workout App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2641,7 +2637,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2657,7 +2653,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = train.workout;
 				PRODUCT_NAME = "Workout App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
