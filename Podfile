@@ -5,7 +5,6 @@ use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Workout' do
-  pod 'NotificationBannerSwift'
   pod 'Kingfisher'
   
   pod 'RxSwift'

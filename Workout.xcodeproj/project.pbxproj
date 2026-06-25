@@ -231,7 +231,6 @@
 		DECD49CF2CE5105F0091A803 /* SplashReceiptValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD482B2CE5105F0091A803 /* SplashReceiptValidationObserver.swift */; };
 		DECD49D02CE5105F0091A803 /* HomeStatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD47C92CE5105F0091A803 /* HomeStatsCell.swift */; };
 		DECD49D12CE5105F0091A803 /* ProfileMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48212CE5105F0091A803 /* ProfileMainTableView.swift */; };
-		DECD49D22CE5105F0091A803 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD474E2CE5105F0091A803 /* Toast.swift */; };
 		DECD49D32CE5105F0091A803 /* GetDrillTrainingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48952CE5105F0091A803 /* GetDrillTrainingRequest.swift */; };
 		DECD49D42CE5105F0091A803 /* DrillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD489F2CE5105F0091A803 /* DrillManager.swift */; };
 		DECD49D52CE5105F0091A803 /* TrainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD48402CE5105F0091A803 /* TrainViewModel.swift */; };
@@ -348,7 +347,6 @@
 		DECD474B2CE5105F0091A803 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DECD474C2CE5105F0091A803 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
 		DECD474D2CE5105F0091A803 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
-		DECD474E2CE5105F0091A803 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		DECD47502CE5105F0091A803 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		DECD47512CE5105F0091A803 /* NavigationControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerSettings.swift; sourceTree = "<group>"; };
 		DECD47532CE5105F0091A803 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
@@ -773,7 +771,6 @@
 				DECD474B2CE5105F0091A803 /* ImagePicker.swift */,
 				DECD474C2CE5105F0091A803 /* RequestReview.swift */,
 				DECD474D2CE5105F0091A803 /* RxActivityIndicator.swift */,
-				DECD474E2CE5105F0091A803 /* Toast.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -2472,7 +2469,6 @@
 				DECD49CF2CE5105F0091A803 /* SplashReceiptValidationObserver.swift in Sources */,
 				DECD49D02CE5105F0091A803 /* HomeStatsCell.swift in Sources */,
 				DECD49D12CE5105F0091A803 /* ProfileMainTableView.swift in Sources */,
-				DECD49D22CE5105F0091A803 /* Toast.swift in Sources */,
 				DECD49D32CE5105F0091A803 /* GetDrillTrainingRequest.swift in Sources */,
 				DECD49D42CE5105F0091A803 /* DrillManager.swift in Sources */,
 				DECD49D52CE5105F0091A803 /* TrainViewModel.swift in Sources */,
@@ -2598,7 +2594,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2614,7 +2610,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = train.workout;
 				PRODUCT_NAME = "Workout App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2637,7 +2633,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2653,7 +2649,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = train.workout;
 				PRODUCT_NAME = "Workout App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
